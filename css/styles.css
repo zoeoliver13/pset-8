@@ -57,7 +57,7 @@ h3 {
   background-color: lightgray;
   cursor: pointer;
 }
-/*
+
 .score_X{
   font-size: 25px;
   position: relative;
@@ -71,7 +71,7 @@ h3 {
   top: 100px;
   right: -300px;
 }
-*/
+
 /*ID Selectors*/
 #reset-button {
   background-color: white;
