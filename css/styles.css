@@ -1,6 +1,6 @@
 
 *{
-  background-color: #5E5E5E;
+  background-color: #E1E1E1;
 }
 /*Type Selectors*/
 body {
@@ -13,6 +13,7 @@ h1 {
   font-family: "Major Mono Display", monospace;
   font-size: 48px;
   margin: 5%;
+  text-shadow: 3px #48E5C2;
 }
 
 h2 {
@@ -21,6 +22,9 @@ h2 {
   margin: 0%;
   position: relative;
   top:-30px;
+  color: #48E5C2;
+  font-weight: bold;
+  text-shadow: #333333;
 }
 
 h3 {
@@ -49,7 +53,7 @@ h3 {
 }
 
 .square {
-  background-color: #F3D3BD;
+  background-color: #FCFAF9;
   border: 1px solid rgba(0, 0, 0, 0.75);
   font-size: 96px;
   height: 150px;
@@ -68,6 +72,7 @@ font-size: 25px;
 float: left;
 position: relative;
 left: 180px;
+font-weight: bold;
 }
 
 .score_O{
@@ -75,13 +80,14 @@ font-size: 25px;
 float: right;
 position:relative;
 right: 180px;
+font-weight: bold;
 }
 
 /*ID Selectors*/
 #reset-button {
-  background-color: white;
+  background-color: #333333;
   border: 1px solid black;
-  color: black;
+  color: #FCFAF9;
   font-size: 21px;
   line-height: 55px;
   margin: 1%;
@@ -104,7 +110,7 @@ right: 180px;
 }
 
 #first_X{
-  background-color: grey;
+  background-color: #333333;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -113,11 +119,12 @@ right: 180px;
   display: inline-block;
   font-size: 16px;
   position: relative;
-
+  color: #FCFAF9;
+  font-weight: bold;
 }
 
 #first_O{
-  background-color: grey;
+  background-color: #333333;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -126,7 +133,8 @@ right: 180px;
   display: inline-block;
   font-size: 16px;
   position: relative;
-
+  color:#FCFAF9;
+  font-weight: bold;
 }
 
 #board{
