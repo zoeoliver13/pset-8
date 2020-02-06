@@ -14,9 +14,8 @@ const winningConditions = [
 ///////////////////// APP STATE (VARIABLES) /////////////////////////
 
 let board;
-let turn;
+let turn = "X";
 let win;
-let player;
 let scoreX = 0;
 let scoreO = 0;
 
@@ -36,7 +35,7 @@ document.getElementById("reset-button").onclick = init;
 ///////////////////// FUNCTIONS /////////////////////////////////////
 function init() {
   board = ["", "", "", "", "", "", "", "", ""];
-  turn = player;
+  turn = turn;
   win = null;
 
   render();
@@ -45,13 +44,14 @@ function init() {
 //choose who goes first
 function first_X(){
   document.getElementById("go").innerHTML = "Turn: X";
-  player = "X";
+  turn = "X";
 
 }
 function first_O(){
   document.getElementById("go").innerHTML = "Turn: O";
-  player = "O";
+  turn = "O";
 }
+ //clear the board when change the turn
 
 function render() {
   board.forEach(function(mark, index) {
