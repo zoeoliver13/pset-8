@@ -59,14 +59,16 @@ h3 {
 }
 
 .score_X{
+  font-size: 25px;
   position: relative;
   top: 115px;
   left: -300px;
 }
 
 .score_O{
+  font-size: 25px;
   position: relative;
-  top: 115px;
+  top: 60px;
   right: -300px;
 }
 
