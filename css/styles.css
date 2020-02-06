@@ -57,21 +57,21 @@ h3 {
   background-color: lightgray;
   cursor: pointer;
 }
-
+/*
 .score_X{
   font-size: 25px;
   position: relative;
-  top: 115px;
+  top: 100px;
   left: -300px;
 }
 
 .score_O{
   font-size: 25px;
   position: relative;
-  top: 60px;
+  top: 100px;
   right: -300px;
 }
-
+*/
 /*ID Selectors*/
 #reset-button {
   background-color: white;
