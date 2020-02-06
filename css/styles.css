@@ -23,6 +23,7 @@ h2 {
 h3 {
   position: relative;
   top:-5px;
+  padding-bottom: 2%;
 }
 
 /*Class Selectors*/
@@ -59,15 +60,17 @@ h3 {
 }
 
 .score_X{
+font-size: 25px;
 float: left;
 position: relative;
-left: 220px;
+left: 180px;
 }
 
 .score_O{
+font-size: 25px;
 float: right;
 position:relative;
-right: 220px;
+right: 180px;
 }
 
 /*ID Selectors*/
