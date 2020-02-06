@@ -17,12 +17,12 @@ h2 {
   font-weight: lighter;
   margin: 0%;
   position: relative;
-  top:-50px;
+  top:-30px;
 }
 
 h3 {
   position: relative;
-  top:10px;
+  top:-5px;
 }
 
 /*Class Selectors*/
@@ -59,17 +59,15 @@ h3 {
 }
 
 .score_X{
-  font-size: 25px;
-  position: relative;
-  top: 100px;
-  left: -300px;
+float: left;
+position: relative;
+left: 220px;
 }
 
 .score_O{
-  font-size: 25px;
-  position: relative;
-  top: 100px;
-  right: -300px;
+float: right;
+position:relative;
+right: 220px;
 }
 
 /*ID Selectors*/
