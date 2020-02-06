@@ -1,4 +1,7 @@
 
+*{
+  background-color: #5E5E5E;
+}
 /*Type Selectors*/
 body {
   text-align: center;
@@ -46,6 +49,7 @@ h3 {
 }
 
 .square {
+  background-color: #F3D3BD;
   border: 1px solid rgba(0, 0, 0, 0.75);
   font-size: 96px;
   height: 150px;
@@ -123,4 +127,14 @@ right: 180px;
   font-size: 16px;
   position: relative;
 
+}
+
+#board{
+  border-radius: 20px;
+  border-top: 20px;
+  border-bottom: 20px;
+  border-left: 20px;
+  border-right: 20px;
+  border-style:  double;
+  background-color: #48E5C2;
 }
