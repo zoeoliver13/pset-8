@@ -18,6 +18,7 @@ let turn = "X";
 let win;
 let scoreX = 0;
 let scoreO = 0;
+var clear_board = document.getElementById("go");
 
 ///////////////////// CACHED ELEMENT REFERENCES /////////////////////
 
@@ -31,7 +32,6 @@ document.getElementById("first_X").onclick = first_X;
 document.getElementById("first_O").onclick = first_O;
 document.getElementById("board").onclick = takeTurn;
 document.getElementById("reset-button").onclick = init;
-
 ///////////////////// FUNCTIONS /////////////////////////////////////
 function init() {
   board = ["", "", "", "", "", "", "", "", ""];
@@ -43,15 +43,16 @@ function init() {
 
 //choose who goes first
 function first_X(){
+  init();
   document.getElementById("go").innerHTML = "Turn: X";
   turn = "X";
 
 }
 function first_O(){
+  init();
   document.getElementById("go").innerHTML = "Turn: O";
   turn = "O";
 }
- //clear the board when change the turn
 
 function render() {
   board.forEach(function(mark, index) {
