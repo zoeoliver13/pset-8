@@ -17,6 +17,8 @@ let board;
 let turn;
 let win;
 let player;
+let scoreX = 0;
+let scoreO = 0;
 
 ///////////////////// CACHED ELEMENT REFERENCES /////////////////////
 
@@ -49,7 +51,6 @@ function first_X(){
 function first_O(){
   document.getElementById("go").innerHTML = "Turn: O";
   player = "O";
-
 }
 
 function render() {
@@ -87,8 +88,17 @@ function getWinner() {
       board[condition[1]] === board[condition[2]]
     ) {
       winner = board[condition[0]];
+      if(winner === "X"){
+        scoreX++;
+        document.getElementById("score_X").innerHTML = scoreX;
+      }
+      if(winner === "O"){
+        scoreO++;
+        document.getElementById("score_O").innerHTML = scoreO;
+      }
     }
   });
 
   return winner ? winner : board.includes("") ? null : "T";
 }
+//determine score

@@ -1,3 +1,5 @@
+
+/*Type Selectors*/
 body {
   text-align: center;
   font-family: "Roboto", monospace;
@@ -7,15 +9,23 @@ h1 {
   margin: 0 auto;
   font-family: "Major Mono Display", monospace;
   font-size: 48px;
-  margin: 2%;
+  margin: 5%;
 }
 
 h2 {
   font-size: 36px;
   font-weight: lighter;
-  margin: 2%;
+  margin: 0%;
+  position: relative;
+  top:-50px;
 }
 
+h3 {
+  position: relative;
+  top:10px;
+}
+
+/*Class Selectors*/
 .container {
   display: flex;
   justify-content: center;
@@ -48,6 +58,19 @@ h2 {
   cursor: pointer;
 }
 
+.score_X{
+  position: relative;
+  top: 115px;
+  left: -300px;
+}
+
+.score_O{
+  position: relative;
+  top: 115px;
+  right: -300px;
+}
+
+/*ID Selectors*/
 #reset-button {
   background-color: white;
   border: 1px solid black;
@@ -63,4 +86,38 @@ h2 {
   background-color: black;
   color: white;
   cursor: pointer;
+}
+
+#score_X{
+  list-style-type: none;
+}
+
+#score_O{
+    list-style-type: none;
+}
+
+#first_X{
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+
+}
+
+#first_O{
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+
 }
